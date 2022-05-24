@@ -1,11 +1,14 @@
 import './App.css';
 import AppRouter from './router/AppRouter';
+import { Layout } from 'antd';
 
 function App() {
   return (
-    <AppRouter>
-      <div className="App" />
-    </AppRouter>
+    <Layout className="mainLayout">
+      <AppRouter>
+        <div className="App" />
+      </AppRouter>
+    </Layout>
   );
 }
 
